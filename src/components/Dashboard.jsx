@@ -41,6 +41,7 @@ const Dashboard = () => {
           <MovieCard key={movie.id} movie={movie} />
         ))}
       </div>
+      <Link to='add-movie'>Add Movie</Link>
     </div>
   );
 };

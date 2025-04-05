@@ -8,6 +8,7 @@ const App = () => {
     <Router>
       <Routes>
         <Route path="/" element={<Dashboard />} />
+        <Route path="/add-movie" element={<MovieForm />} />
       </Routes>
     </Router>
   );
